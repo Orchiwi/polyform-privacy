@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Polyform — Data deletion request</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; max-width: 700px; margin: 60px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 32px; font-size: 1.1em; }
+    code { background: #f3f3f3; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    .lang { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; }
+    a { color: #3B82F6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<h1>Polyform — Data deletion request</h1>
+<p><em>Last updated: 2026-05-22</em></p>
+
+<h2>What data Polyform stores about you</h2>
+<p>Polyform stores almost everything <strong>locally on your device</strong> (best score, settings, coins, XP, achievements, etc.). That data is automatically wiped when you uninstall the app.</p>
+<p>The <strong>only</strong> data that leaves your device is when you opt in to the worldwide leaderboard by setting a pseudo (nickname) in the in-app Settings screen. In that case, the following is stored on our Supabase server (EU region):</p>
+<ul>
+  <li>your chosen pseudo (3-16 alphanumeric characters);</li>
+  <li>your submitted score and the time of submission;</li>
+  <li>the IP address used at submission time (for rate-limiting and abuse prevention).</li>
+</ul>
+
+<h2>How to request deletion of your leaderboard data</h2>
+<ol>
+  <li>Send an email to <strong><a href="mailto:orchiwideveloper@outlook.com?subject=Polyform%20data%20deletion%20request">orchiwideveloper@outlook.com</a></strong></li>
+  <li>Subject line: <code>Polyform data deletion request</code></li>
+  <li>In the body, include the pseudo(s) you used in the leaderboard. That is the only identifier we store about you.</li>
+</ol>
+<p>We will process your request within <strong>7 days</strong> and confirm completion by email. The deletion removes all rows in the <code>scores</code> and <code>daily_scores</code> tables that match the pseudo(s) you provide.</p>
+
+<h2>Deleting local-only data</h2>
+<p>If you have not used the leaderboard (i.e. you never set a pseudo), <strong>nothing leaves your device</strong> and you don't need to contact us. Simply uninstall Polyform and all local data is gone.</p>
+
+<h2>Privacy policy</h2>
+<p>For the full picture of how Polyform handles data, see the <a href="policy_en.html">Privacy Policy (English)</a> / <a href="policy_fr.html">Politique de confidentialité (Français)</a>.</p>
+
+<div class="lang">
+<h1>Polyform — Suppression de données (FR)</h1>
+
+<h2>Quelles données Polyform stocke sur vous</h2>
+<p>Polyform stocke quasiment tout <strong>en local sur votre téléphone</strong> (meilleur score, paramètres, pièces, XP, succès…). Ces données disparaissent automatiquement quand vous désinstallez l'app.</p>
+<p>La <strong>seule</strong> donnée qui sort de votre téléphone est lorsque vous activez le classement mondial en choisissant un pseudo dans l'écran Paramètres. Dans ce cas, sont stockés sur notre serveur Supabase (zone EU) :</p>
+<ul>
+  <li>le pseudo choisi (3-16 caractères alphanumériques) ;</li>
+  <li>le score soumis et la date de soumission ;</li>
+  <li>l'adresse IP utilisée au moment de la soumission (anti-abus).</li>
+</ul>
+
+<h2>Demander la suppression de vos données du classement</h2>
+<ol>
+  <li>Envoyez un email à <strong><a href="mailto:orchiwideveloper@outlook.com?subject=Polyform%20-%20demande%20de%20suppression%20de%20donn%C3%A9es">orchiwideveloper@outlook.com</a></strong></li>
+  <li>Objet : <code>Polyform - demande de suppression de données</code></li>
+  <li>Dans le corps du mail, indiquez le ou les pseudo(s) utilisé(s). C'est le seul identifiant que nous stockons.</li>
+</ol>
+<p>Votre demande sera traitée sous <strong>7 jours</strong> et nous confirmerons par email. La suppression retire toutes les lignes des tables <code>scores</code> et <code>daily_scores</code> correspondant aux pseudos fournis.</p>
+
+<h2>Suppression des données locales</h2>
+<p>Si vous n'avez jamais utilisé le classement (aucun pseudo défini), <strong>rien ne sort de votre téléphone</strong>, vous n'avez pas besoin de nous contacter. Désinstallez simplement Polyform et tout est effacé.</p>
+</div>
+
+</body>
+</html>
